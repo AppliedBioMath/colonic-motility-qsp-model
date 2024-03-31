@@ -1,0 +1,47 @@
+Parameter,Value,Units,Description
+drugMW,455.6,Da,Molecular weight of 5-HT4 agonist
+Vcentral,33,L,Central compartment volume
+Vperipheral,100,L,Peripheral compartment volume
+fbound_pp,0.986,,Plasma protein-bound drug fraction
+scaling_factor,10,,Scaling factor to speed up plasma protein binding
+kabs_drug,2.30E-04,s-1,Gut to plasma absorption rate constant for drug
+kc2p,0.03,s-1,Central to peripheral transport rate constant
+kp2c,1.00E-04,s-1,Peripheral to central transport rate constant
+kel,5.00E-03,s-1,Drug elimination rate constant
+kbind_drug,1.00E-03,nM-1.s-1,Drug + 5HT4 binding rate constant
+kunbind_drug,3.00E-02,s-1,Drug:5HT4 dissociation rate constant
+ksyn_5ht,4.10E-01,nM.s-1,Serotonin synthesis rate constant
+kdeg_5ht,3.00E-02,s-1,Serotonin degradation rate constant
+kbind_5ht,1.00E-03,nM-1.s-1,Serotonin + 5HT4 binding rate constant
+kunbind_5ht,5.00E-02,s-1,Serotonin:5HT4 dissociation rate constant
+ksyn_5ht4r,1.00E-01,nM.s-1,5HT4 synthesis rate constant
+kdeg_5ht4r,7.00E-04,s-1,5HT4 degradation rate constant
+kint_5ht4r,1.20E-03,s-1,Bound 5HT4 internalization rate constant
+ksyn_achi,1.00E+03,nM.s-1,Intracellular acetylcholine synthesis rate constant
+kdeg_achi,1.00E+00,s-1,Intracellular acetylcholine degradation rate constant
+krelease,4.50E-03,nM-1.s-1,Acetylcholine release rate constant
+kbind_ach,1.00E-03,nM-1.s-1,Acetylcholine + M binding rate constant
+kunbind_ach,1.00E+00,s-1,Acetylcholine:M dissociation rate constant
+kclear_ach,4.00E-01,s-1,Extracellular acetylcholine clearance rate constant
+ksyn_m,1.00E-01,nM.s-1,Muscarinic receptor synthesis rate
+kdeg_m,1.00E-04,s-1,Muscarinic receptor degradation rate constant
+hmax,6,,Maximal HAPC frequency
+wmax,0.77,g.min-1,Maximal liquid influx rate
+EC50,0.222,,EC50 for response mapping function
+HillCoef,5.5,,Hill coefficient for response mapping function
+kin_w,0.3,g.min-1,Liquid influx rate into colon
+kin_m,0.033333333,g.min-1,Solid influx rate into colon
+ktrans,0.501,min-1,Colonic transport rate constant
+kabs_w,1.00E-03,min-1,Liquid absorption rate constant in colon
+kloss_m,0.000333333,min-1,Solid loss rate constant in colon
+mthresh,70,g,Defecation threshold mass
+HAPCfrequency,2,day-1,Baseline HAPC frequency
+HAPCduration,1,min,HAPC duration per compartment
+m1_0,32.1,g,Initial solid mass in compartment 1. Don't set this to 0!
+w1_0,161.5,g,Initial liquid mass in compartment 1
+m2_0,21.6,g,Initial solid mass in compartment 2. Don't set this to 0!
+w2_0,74.5,g,Initial liquid mass in compartment 2
+m3_0,15.8,g,Initial solid mass in compartment 3. Don't set this to 0!
+w3_0,36,g,Initial liquid mass in compartment 3
+m4_0,24.8,g,Initial solid mass in compartment 4. Don't set this to 0!
+w4_0,27.7,g,Initial liquid mass in compartment 4
